@@ -11,12 +11,7 @@ storiesOf('Text', module)
     ))
     .add('Basic text', () => (
         <Text/>
-    ))
-    .add('Contrast', () => (
-        <Contrast/>
     ));
-
-
 
 storiesOf('Forms', module)
     .add('Basic form', () => (

@@ -3,8 +3,16 @@ import React from 'react';
 const Text = () => (
     <div className="row">
         <div className="col l12 m12 s12">
+            <p className="red-text text-darken-2" style={{maxWidth: 600, fontSize: 8}}>
+                Make sure the text is not too small
+            </p>
+            <p className="teal-text" style={{maxWidth: 600, fontSize: 18}}>
+                Usually this is a good size (18px)
+            </p>
+        </div>
+        <div style={{fontSize: 18}} className="col l12 m12 s12">
             <p>
-                <b>Make sure the text is not too long: </b>
+                <b className="red-text text-darken-2">Make sure the text is not too long: </b>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae pariatur praesentium soluta tempora voluptate? Architecto consequuntur dolor dolores dolorum illum recusandae.
                 Architecto autem magnam molestiae quisquam repudiandae soluta voluptatibus. Ex!Aliquid animi aut autem, consequatur culpa cupiditate dicta ducimus error, hic illum in ipsa maiores obcaecati omnis ullam ut velit vitae.
                 A corporis dolorum facere iure, officiis quae quas voluptates.Aperiam cupiditate dolore eveniet, ex fuga ipsa laborum magnam mollitia necessitatibus nesciunt odio officiis, pariatur qui reiciendis sed suscipit ullam voluptatibus.
@@ -18,24 +26,12 @@ const Text = () => (
             </p>
         </div>
         <div className="col l12 m12 s12">
-            <p style={{maxWidth: 600}}>
-                <b> 600px is enough </b>
+            <p style={{fontSize: 18, maxWidth: 600}}>
+                <b className="teal-text" > 600px is enough </b>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae pariatur praesentium soluta tempora voluptate? Architecto consequuntur dolor dolores dolorum illum recusandae.
                 Architecto autem magnam molestiae quisquam repudiandae soluta voluptatibus. Ex!Aliquid animi aut autem, consequatur culpa cupiditate dicta ducimus error, hic illum in ipsa maiores obcaecati omnis ullam ut velit vitae.
                 A corporis dolorum facere iure, officiis quae quas voluptates.Aperiam cupiditate dolore eveniet, ex fuga ipsa laborum magnam mollitia necessitatibus nesciunt odio officiis, pariatur qui reiciendis sed suscipit ullam voluptatibus.
                 Aliquam aperiam doloremque molestiae neque, sed velit veniam voluptates.Ad aliquid amet assumenda atque, cum debitis deleniti dolorem dolorum eius hic id in ipsa, ipsum labore maxime molestiae nam natus nulla porro praesentium quidem.
-            </p>
-        </div>
-        <hr/>
-        <div className="col l12 m12 s12">
-            <p style={{maxWidth: 600, fontSize: 8}}>
-                Make sure the text is not too small
-            </p>
-            <p style={{maxWidth: 600, fontSize: 100}}>
-               Large is OK
-            </p>
-            <p style={{maxWidth: 600, fontSize: 19}}>
-                But usually this is a good size
             </p>
         </div>
     </div>

@@ -9,13 +9,13 @@ const Form = () => (
                     <div className="row">
                         <div className="input-field">
                             <input id="first-name" type="text" className="validate"/>
-                            <label htmlFor="first-name" className="active">Password</label>
+                            <label htmlFor="first-name" className="active">First name</label>
                         </div>
                     </div>
                     <div className="row">
                         <div className="input-field">
                             <input id="last-name" type="text" className="validate"/>
-                            <label htmlFor="last-name" className="active">Password</label>
+                            <label htmlFor="last-name" className="active">Last name</label>
                         </div>
                     </div>
                     <div className="row">
