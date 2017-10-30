@@ -1,20 +1,24 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { storiesOf, action } from '@storybook/react';
 import Headers from '../src/components/headers';
-import {Button, Icon} from 'react-materialize'
+import Form from '../src/components/form';
+import Text from '../src/components/text';
+import Contrast from '../src/components/contrast'
 
-storiesOf('Headers', module)
-    .add('H1-H6', () => (
+storiesOf('Text', module)
+    .add('Headings', () => (
        <Headers />
+    ))
+    .add('Basic text', () => (
+        <Text/>
+    ))
+    .add('Contrast', () => (
+        <Contrast/>
     ));
 
-storiesOf('Buttons', module)
-    .add('Button', () => (
-        <Button onClick={action('clicked')} waves='light'>button</Button>
-    ))
-    .add('Button with icon left', () => (
-            <Button onClick={action('clicked')} waves='light'>button<Icon left>cloud</Icon></Button>
-    ))
-    .add('Button with icon right', () => (
-            <Button onClick={action('clicked')} waves='light'>button<Icon right>cloud</Icon></Button>
+
+
+storiesOf('Forms', module)
+    .add('Basic form', () => (
+        <Form />
     ));
